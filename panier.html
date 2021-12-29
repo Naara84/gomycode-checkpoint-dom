@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="panier.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <table class="table">
+        <tr>
+            <td>
+                Nom de l'article
+            </td>
+            <td>
+                Quantité
+            </td>
+            <td>
+                Prix unitaire
+            </td>
+            <td >
+                Sous total
+            </td>
+        </tr>
+
+        <tr class="line1">
+            <td>
+                <h3>sac de riz</h3>
+                <p class="delete1"> supprimer </p>
+            </td>
+            <td>
+               <button class="btnDown">-</button> <input class="screen" type="text" readonly value="1"> <button class="btnAdd">+</button>
+            </td>
+            <td >
+                25000
+            </td>
+            <td class="total">
+                25000
+            </td>
+        </tr>
+
+        <tr class="line2">
+            <td>
+                <h3> marmite </h3>
+                <p class="delete2"> supprimer </p>
+            </td>
+            <td>
+                <button class="btnDown">-</button> <input class="screen" type="text" readonly placeholder="1"> <button class="btnAdd">+</button>
+            </td>
+            <td>
+                3000
+            </td>
+            <td class="total">
+                3000
+            </td>
+        </tr>
+    </table>
+
+    <div>
+        <input class="saisi" type="text" placeholder="marmitte">
+        <input class="prix" type="number" name="" id="" placeholder="3000"> 
+        <button class="addArcticle">Nouvel Article</button>
+    </div>
+
+    <div>
+        <h1 class="finalPrice">
+            total : <span>28 000 fr</span>
+        </h1>
+    </div>
+
+
+    <script src="panier.js"></script>
+    
+</body>
+</html>
